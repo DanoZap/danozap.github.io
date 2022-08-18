@@ -57,9 +57,15 @@ body {
     color: #99ceb3e7;
     transition: all .6s;
 }
+/* 
+.site-title {
+    background-color: ; Colocar un fondo 
+} */
 
 .myself  {
     margin: 75px;
+    margin-top: 15px;
+    padding-top: 30px;
     display: block;
     font-size: 50px;
     text-align: center;
@@ -68,6 +74,9 @@ body {
 .my-face {
     width: 250px;
     border-radius: 33%;
+    box-shadow: 0px 7px 68px 5px rgba(193,64,204,0.88);
+    -webkit-box-shadow: 0px 7px 68px 5px rgba(193,64,204,0.88);
+    -moz-box-shadow: 0px 7px 68px 5px rgba(193,64,204,0.88);
     display: block;
     margin: 0 auto 24px;
 }
@@ -75,6 +84,7 @@ body {
 .about-me {
     margin-top: -30px;
     margin-bottom: 30px;
+    padding: 20px;
     display: block;
     text-align: center;
     font-size: 25px;
@@ -89,6 +99,7 @@ body {
     width: 350px;
     height: 300px;
     border: 1px solid lightgray;
+    border-radius: 12px;
     text-align: center;
 }
 
@@ -109,7 +120,7 @@ body {
     align-items: center;
 }
 
-.footer_lk {
+.footer_btn {
     font-size: 1.3rem;
 }
 
@@ -118,6 +129,14 @@ a:-webkit-any-link {
     text-decoration: none;
 }
 
-.footer_lk:hover {
-    color: #6c3d95be;
+.footer_btn.twitter:hover {
+    color:#00acee
+}
+
+.footer_btn.github:hover {
+   color: #6c3d958d;
+}
+
+.footer_btn.instagram:hover { 
+    color: #F77737
 }
