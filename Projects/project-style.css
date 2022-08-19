@@ -58,53 +58,17 @@ body {
     transition: all .6s;
 }
 
-.site-title {
-    background: linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70%);
-    max-width: 100%;
-    height: 850px;
-} 
-
-.myself  {
-    margin: 65px;
-    margin-top: 15px;
-    padding-top: 30px;
-    display: block;
-    font-family: cursive ;
-    font-size: 75px;
-    text-align: center;
-}
-
-.my-face {
-    width: 350px;
-    border-radius: 33%;
-    box-shadow: 0px 7px 68px 5px rgba(193,64,204,0.88);
-    -webkit-box-shadow: 0px 7px 68px 5px rgba(193,64,204,0.88);
-    -moz-box-shadow: 0px 7px 68px 5px rgba(193,64,204,0.88);
-    display: block;
-    margin: 0 auto 24px;
-}
-
-.about-me {
-    margin-top: -30px;
-    margin-bottom: 30px;
-    padding: 20px;
-    display: block;
-    text-align: center;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 35px;
-}
-
 .site-projects {
-    height: 850px;
+    background: linear-gradient(25deg, rgb(40, 11, 119) 0%, rgb(5, 22, 58) 100%);
+
 }
 
 .projects {
-    margin: 40px;
-    padding: 5px;
+    margin: 15px;
+    padding: 15px;
     display: flex;
-    object-position: center;
     flex-wrap: wrap;
-    align-content: space-around;
+    justify-content: center;
 }
 
 .project-box {
@@ -115,8 +79,6 @@ body {
     border-radius: 12px;
     text-align: center;
 }
-
-
 
 .home-footer {
     background-color: #000;
@@ -159,4 +121,5 @@ a:-webkit-any-link {
     margin: 1px;
     color: #F77737
 }
+
 
