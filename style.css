@@ -145,6 +145,11 @@ a:-webkit-any-link {
     text-decoration: none;
 }
 
+.footer_btn.linkedin:hover {
+    margin: 1px;
+    color:#0077ff
+}
+
 .footer_btn.twitter:hover {
     margin: 1px;
     color:#00acee
