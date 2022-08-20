@@ -64,11 +64,11 @@ body {
 }
 
 .projects {
-    margin: 15px;
     padding: 15px;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center;
 }
 
 .project-box {
@@ -83,7 +83,6 @@ body {
 .home-footer {
     background-color: #000;
     color: #fff;
-    position: absolute;
     bottom: 0;
     height: 75px;
     width: 100%;
@@ -105,6 +104,11 @@ body {
 a:-webkit-any-link {
     color: #fff;
     text-decoration: none;
+}
+
+.footer_btn.linkedin:hover {
+    margin: 1px;
+    color:#0077ff
 }
 
 .footer_btn.twitter:hover {
