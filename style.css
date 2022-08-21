@@ -170,6 +170,7 @@ a:-webkit-any-link {
         background: none;
     }
     .my-face{
+        margin: 75px auto;
         width: 500px;
     }
     .myself{
