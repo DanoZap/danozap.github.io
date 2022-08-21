@@ -4,7 +4,6 @@ body {
     background: #191b1f;
     cursor: crosshair;
 }
-
 .home-header-nav {
     margin: 10px;
     display: block;
@@ -23,7 +22,6 @@ body {
     color: #7d796dca;
     transition: all .4s;
 }
-
 
 .nav-list {
     float: right;
@@ -150,67 +148,3 @@ a:-webkit-any-link {
     color: #F77737
 }
 
-@media screen and (min-width: 768px) {
-    body {
-        background: linear-gradient(8deg, #0d3f87, #3f919c);
-        background-size: 400% 400%;
-    }
-    .my-face:hover {
-        transition: .6s;
-        box-shadow: 0px 7px 68px 5px rgba(132, 40, 230, 0.9);
-        -webkit-box-shadow: 0px 7px 68px 5px rgba(144, 68, 221, 0.88);
-        -moz-box-shadow: 0px 7px 68px 5px rgba(193,64,204,0.88);
-    }
-    .home-header-nav {
-        background: #191b1f;
-        margin: 0;
-        padding: 25px;
-    }
-    .site-title {
-        background: none;
-    }
-    .my-face{
-        margin: 75px auto;
-        width: 500px;
-    }
-    .myself{
-        font-size: 75px;
-    }
-    .about-me {
-        font-size: 50px;
-    }
-    .home-footer{
-        font-size: 45px;
-        position: absolute;
-        bottom: 0;
-        height: 200px;
-        width: 100%;
-    }
-    .fa-brands, .fab {
-        font-size: 100px;
-    }
-    a:-webkit-any-link {
-        color: #fff;
-        text-decoration: none;
-    }
-    
-    .footer_btn.linkedin:hover {
-        margin: 1px;
-        color:#0077ff
-    }
-    
-    .footer_btn.twitter:hover {
-        margin: 1px;
-        color:#00acee
-    }
-    
-    .footer_btn.github:hover {
-       margin: 1px;
-       color: #6c3d958d;
-    }
-    
-    .footer_btn.instagram:hover {
-        margin: 1px;
-        color: #F77737
-    }
-}
