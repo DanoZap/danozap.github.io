@@ -62,7 +62,7 @@ body {
 .site-title {
     background: linear-gradient(336deg, rgba(47, 97, 138, 0.6), rgba(160,58,105,.6) 70%);
     width: 100%;
-    height: 840px;
+    height: 797px;
 }
 
 
@@ -107,10 +107,9 @@ body {
     display: flex;
     background-color: #000;
     color: #fff;
-    position: absolute;
+    position: static;
     bottom: 0;
     height: 100px;
-    width: 100%;
 }
 
 .footer-content {
@@ -149,4 +148,59 @@ a:-webkit-any-link {
 .footer_btn.instagram:hover {
     margin: 1px;
     color: #F77737
+}
+
+@media screen and (min-width: 768px) {
+    body {
+        background: linear-gradient(8deg, #0d3f87, #3f919c);
+        background-size: 400% 400%;
+    }
+    .my-face:hover {
+        transition: .6s;
+        box-shadow: 0px 7px 68px 5px rgba(132, 40, 230, 0.9);
+        -webkit-box-shadow: 0px 7px 68px 5px rgba(144, 68, 221, 0.88);
+        -moz-box-shadow: 0px 7px 68px 5px rgba(193,64,204,0.88);
+    }
+    .home-header-nav {
+        background: #191b1f;
+        margin: 0;
+        padding: 25px;
+    }
+    .site-title {
+        background: none;
+    }
+    .home-footer{
+        font-size: 45px;
+        position: absolute;
+        bottom: 0;
+        height: 200px;
+        width: 100%;
+    }
+    .fa-brands, .fab {
+        font-size: 100px;
+    }
+    a:-webkit-any-link {
+        color: #fff;
+        text-decoration: none;
+    }
+    
+    .footer_btn.linkedin:hover {
+        margin: 1px;
+        color:#0077ff
+    }
+    
+    .footer_btn.twitter:hover {
+        margin: 1px;
+        color:#00acee
+    }
+    
+    .footer_btn.github:hover {
+       margin: 1px;
+       color: #6c3d958d;
+    }
+    
+    .footer_btn.instagram:hover {
+        margin: 1px;
+        color: #F77737
+    }
 }
