@@ -169,6 +169,15 @@ a:-webkit-any-link {
     .site-title {
         background: none;
     }
+    .my-face{
+        width: 500px;
+    }
+    .myself{
+        font-size: 75px;
+    }
+    .about-me {
+        font-size: 50px;
+    }
     .home-footer{
         font-size: 45px;
         position: absolute;
